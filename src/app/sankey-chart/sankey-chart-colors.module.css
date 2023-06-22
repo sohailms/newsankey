@@ -1,0 +1,19 @@
+@value people: #09657A;
+@value tickets: #09657A;
+@value projects: #C29913;
+@value research: #16BDBD;
+@value development: #2096B0;
+@value maintenance: #4E87C8;
+@value capitalization: #50C190;
+@value expense: #86D46E;
+
+:root {
+  --sankey-chart-people-color: people;
+  --sankey-chart-tickets-color: tickets;
+  --sankey-chart-projects-color: projects;
+  --sankey-chart-research-color: research;
+  --sankey-chart-development-color: development;
+  --sankey-chart-maintenance-color: maintenance;
+  --sankey-chart-capitalize-color: capitalization;
+  --sankey-chart-expense-color: expense;
+}

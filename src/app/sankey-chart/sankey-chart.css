@@ -1,0 +1,80 @@
+@import "sankey-chart-colors.module.css";
+
+/* Block */
+.sankey-chart {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* Elements */
+.sankey-chart__label {
+  font-size: 6px;
+  position: absolute;
+}
+
+.sankey-chart__label--people {
+  color: var( --sankey-chart-people-color);
+  left: 0%;
+  transform: translate(15%, 0);
+}
+
+.sankey-chart__label--tickets {
+  color: var( --sankey-chart-tickets-color);
+  left: 25%;
+  transform: translate(-50%, 0);
+}
+
+.sankey-chart__label--projects {
+  color: var( --sankey-chart-projects-color);
+  left: 50%;
+  top: 28%;
+  transform: translate(-90%, 0);
+}
+
+.sankey-chart__label--bold {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.sankey-chart__label--people-bold {
+  color: var( --sankey-chart-people-color);
+  left: 0%;
+  bottom: 0;
+  transform: translate(0%, 0);
+}
+
+.sankey-chart__label--tickets-bold {
+  color: var( --sankey-chart-tickets-color);
+  left: 25%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+
+.sankey-chart__label--projects-bold {
+  color: var( --sankey-chart-projects-color);
+  left: 50%;
+  bottom: 0;
+  transform: translate(-80%, 0);
+}
+
+.sankey-chart__label--milestones-bold {
+  color: var( --sankey-chart-capitalize-color);
+  left: 70%;
+  bottom: 0;
+}
+
+.sankey-chart__label--magic-bold {
+  color: var( --sankey-chart-capitalize-color);
+  left: 100%;
+  bottom: 0;
+  transform: translate(-150%, 0);
+}
+
+/* Other styles */
+.sankey-chart__tooltip {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
